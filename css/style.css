@@ -1,6 +1,7 @@
 body {
 background: #242323;
 color: #F9F9F0;
+font-family: Switzer Variable;
 }
 
 @media (max-width: 375px) {
@@ -15,7 +16,7 @@ color: #F9F9F0;
         font-size: 45px;
         font-weight: 600;
         line-height: 45px;
-        text-align: center;               
+        text-align: center;
     }
 }
 
@@ -26,7 +27,6 @@ color: #F9F9F0;
     }
 
     .header-left-text{
-        font-family: Switzer Variable;
         font-size: 17px;
         font-weight: 600;
         line-height: 22.1px;
@@ -43,25 +43,24 @@ color: #F9F9F0;
         font-size: 45px;
         font-weight: 600;
         line-height: 45px;
-        text-align: center;  
-        margin: 0px;                  
+        text-align: center;
+        margin: 0px;
     }
 
     .header-right{
-        
-        padding: 30px 30px 0 0; 
-        gap: 40px; 
+
+        padding: 30px 30px 0 0;
+        gap: 40px;
         margin: 0;
     }
-    
+
     .header-right-text{
-        font-family: Switzer Variable;
         font-size: 17px;
         font-weight: 400;
         line-height: 22.95px;
         text-align: left;
         text-decoration: underline;
-        margin: 0px;                  
+        margin: 0px;
     }
 
     .btn-container{
@@ -76,7 +75,7 @@ color: #F9F9F0;
     }
 
     .hero-content{
-        max-width: 600px; 
+        max-width: 600px;
         margin: 0 auto;
     }
 
@@ -85,7 +84,6 @@ color: #F9F9F0;
     }
 
     .hero-title-text{
-        font-family: Switzer Variable;
         font-size: 68px;
         font-weight: 700;
         line-height: 68px;
@@ -98,7 +96,6 @@ color: #F9F9F0;
     }
 
     .hero-description-text{
-        font-family: Switzer Variable;
         font-size: 17px;
         font-weight: 400;
         line-height: 22.95px;
@@ -109,7 +106,7 @@ color: #F9F9F0;
     .hero-button-container{
         padding-top: 35px;
         display: flex;
-        justify-content: center;  
+        justify-content: center;
     }
 
     .hero-button{
@@ -127,14 +124,14 @@ color: #F9F9F0;
         font-weight: 500;
         line-height: 21.6px;
         text-align: left;
-        color: #FEBE1F;   
-        margin: 0px; 
+        color: #FEBE1F;
+        margin: 0px;
     }
 
     #nav-screen {
         display: none;
         position: fixed;
-        top: 0; 
+        top: 0;
         left: 0;
         width: 100%;
         height: 100%;
@@ -155,10 +152,10 @@ color: #F9F9F0;
     }
 
     .nav-header-right{
-        padding: 45px 40px 0 0; 
+        padding: 31px 40px 0 0;
         margin: 0;
         display: flex;
-        justify-content: flex-end; 
+        justify-content: flex-end;
     }
 
     .close-nav{
@@ -172,27 +169,26 @@ color: #F9F9F0;
         padding: 50px 0 0 30px;
     }
 
-    #nav-screen ul {
+    nav#nav-screen main ul {
         list-style: none;
         margin: 0;
         padding: 0;
     }
 
-    #nav-screen ul li {
-        margin: 20px;
+    nav#nav-screen main ul li {
+        margin: 20px 20px 20px 0px;
     }
 
-    #nav-screen ul li a {
+    nav#nav-screen main ul li a {
         text-decoration: none;
         transition: color 0.3s;
     }
 
-    #nav-screen ul li a:hover {
+    nav#nav-screen main ul li a:hover {
         color: #FEBE1F;
-    } 
+    }
 
     .nav-list-text{
-        font-family: Switzer Variable;
         color: #F9F9F0;
         font-size: 68px;
         font-weight: 700;
@@ -201,23 +197,63 @@ color: #F9F9F0;
     }
 
     .footer-english-terms{
-        padding: 30px 0 0 30px;
+        padding: 0 0 0 40px;
         display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .nav-footer-english-text {
+        text-decoration: underline;
+        color: #FEBE1F;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 22.95px;
     }
 
     .footer-contact {
-        padding: 30px 30px 0 0;
+        padding: 0;
         display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .nav-footer-terms-contact-text {
+        text-decoration: none;
+        color: #F9F9F0;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 22.95px;
     }
 
     .contact-box{
-        padding-left: 13px;
-        gap: 10px;
+        display: flex;
+        gap: 5px;
+        justify-content: flex-end;
     }
 
-    
+    .footer-contact ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 
+    .footer-contact ul li {
+        margin: 5px 0;
+    }
 
+    .footer-contact ul li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .footer-contact ul li a:hover {
+        color: #FEBE1F;
+    }
 
 }
 
